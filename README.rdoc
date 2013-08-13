@@ -1,28 +1,7 @@
 == README
+This application is designed as a sandbox for JS testing using Teaspoon.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ * Teaspoon: https://github.com/modeset/teaspoon
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Please run this app in 'test' mode using powder.
+Visit teaspoo-tdd.dev/teaspoon to see the test cases.

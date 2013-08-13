@@ -33,7 +33,7 @@ Teaspoon.setup do |config|
 
     # Each suite can load a different helper, which can in turn require additional files. This file is loaded before
     # your tests are loaded, and can be used as a manifest.
-    suite.helper = "spec_helper"
+    suite.helper = "test_helper"
 
     # These are the core Teaspoon javascripts. It's strongly encouraged to include only the base files here. You can
     # require other support libraries in your test helper, which allows you to change them without having to restart the
@@ -42,7 +42,7 @@ Teaspoon.setup do |config|
     # Available frameworks: teaspoon-jasmine, teaspoon-mocha, teaspoon-qunit
     #
     # Note: To use the CoffeeScript source files use `"teaspoon/qunit"` etc.
-    suite.javascripts = ["teaspoon-qunit"]
+    suite.javascripts = ["teaspoon/qunit"]
 
     # If you want to change how Teaspoon looks, or include your own stylesheets you can do that here. The default is the
     # stylesheet for the HTML reporter.
